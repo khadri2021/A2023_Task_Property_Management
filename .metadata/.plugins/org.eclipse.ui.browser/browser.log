@@ -1,0 +1,4 @@
+
+Feb 11, 2024 23:37:31.51 NEW SESSION
+Feb 11, 2024 23:37:31.51 [18328:17668:0211/231401.387:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Feb 11, 2024 23:37:31.57 [18328:17668:0211/233731.571:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7

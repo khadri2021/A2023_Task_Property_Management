@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+<style>
+
+body {
+ background-image: url(home.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100;
+
+
+
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<tr>
+<td><a href="seets.html"> <img src="./images/images1.jpg" alt=" "
+		style="width: 100px; height: 250px;">
+	</a>
+	</td>
+</tr>
+
+</body>
+</html>

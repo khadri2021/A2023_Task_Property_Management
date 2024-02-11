@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor= "#00FF00">
+
+ <a href ="Add.jsp"  target ="bottom">Movies</a>
+ <a herf ="Modify.jsp" target ="bottom"> Riges</a>
+
+ </body>
+</html> 

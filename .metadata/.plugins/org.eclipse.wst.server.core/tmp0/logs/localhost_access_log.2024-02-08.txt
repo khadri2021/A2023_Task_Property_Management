@@ -1,0 +1,17 @@
+127.0.0.1 - - [08/Feb/2024:16:06:43 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:06:44 +0530] "GET /AdderssMakersWeb/NewFile.html HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:06:44 +0530] "GET /AdderssMakersWeb/Top.html HTTP/1.1" 200 131
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:06:44 +0530] "GET /AdderssMakersWeb/bottom.html HTTP/1.1" 404 783
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:06:44 +0530] "GET /AdderssMakersWeb/middle.html HTTP/1.1" 404 783
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:09:46 +0530] "GET /AdderssMakersWeb/ HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:09:46 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:11:08 +0530] "GET /AdderssMakersWeb/NewFile.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:11:08 +0530] "GET /AdderssMakersWeb/Top.html HTTP/1.1" 200 153
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:11:08 +0530] "GET /AdderssMakersWeb/middle.html HTTP/1.1" 200 131
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:11:08 +0530] "GET /AdderssMakersWeb/bottom.html HTTP/1.1" 200 131
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:21:44 +0530] "GET /AdderssMakersWeb/NewFile.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:21:44 +0530] "GET /AdderssMakersWeb/Top.html HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:21:44 +0530] "GET /AdderssMakersWeb/middle.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:21:44 +0530] "GET /AdderssMakersWeb/bottom.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:21:45 +0530] "GET /AdderssMakersWeb/NewFile.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Feb/2024:16:21:45 +0530] "GET /AdderssMakersWeb/Top.html HTTP/1.1" 304 -

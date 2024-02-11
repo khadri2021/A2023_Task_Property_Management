@@ -1,0 +1,41 @@
+package com.khadri.addersMakersWebPage;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mysql.cj.jdbc.PreparedStatementWrapper;
+
+
+ 
+public class AdderssMakersServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+  
+    
+	 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		 
+	 Class.forName(com.mysql.cj.jdbc.Driver);
+	 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Web","root","Wellcome@123");
+  String n=request.getParameter("ProName");
+  String n1=request.getParameter("ProName");
+  String n2=request.getParameter("ProName");
+  String n3=request.getParameter("ProName");
+  PreparedStatement prepare = connection.prepareStatement("Select * from PropertyDetilis where PropertyName=? and PropertyType=?,PropertyCast=?,PropertyAdderss=?,ContactNum=?");
+  prepare.setString(1, n);
+  prepare.setString(2, n1);
+  prepare.setString(3, n2);
+  prepare.setString(4, n3);
+  ResultSet rs = prepare.executeQuery();
+  
+	}
+}

@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor=""#00ffff>
+<dev align=center>
+ <h2>ModifyPropertyDetiles</h2>
+ </dev>
+ <center>
+<table>
+<tr>
+<td>Enter PropertyName :</td>
+<td><input type="text" name="ProName"></td>
+</tr>
+<tr><td> <input type="button" value="Search Property"></td></tr>
+</table>
+</center>  
+</body>
+</html>

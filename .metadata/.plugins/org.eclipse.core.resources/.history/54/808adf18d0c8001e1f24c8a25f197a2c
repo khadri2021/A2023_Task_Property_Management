@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+ 
+ 
+</head>
+<body>
+<tr>
+<td><a href="Add.jsp"> <img src="./images/home.jpg" alt=" "
+		style="width: 1500px; height: 550px;">
+	</a>
+	</td>
+</tr>
+
+</body>
+</html>

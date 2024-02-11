@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+<style>
+
+body {
+ background-image: url(home.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100;
+
+
+
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+ 
+</body>
+</html>

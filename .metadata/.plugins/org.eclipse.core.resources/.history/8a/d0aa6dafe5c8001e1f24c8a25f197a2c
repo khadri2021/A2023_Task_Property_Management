@@ -1,0 +1,29 @@
+package com.khadri.addersMakersWebPage;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+ 
+public class AdderssMakersServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+  
+    
+	 
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		 
+	 Class.forName(com.mysql.cj.jdbc.Driver);
+	 Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/Web","root","Wellcome@123");
+  String n=request.getParameter("ProName");
+  String n=request.getParameter("ProType");
+  String n=request.getParameter("ProName");
+  String n=request.getParameter("ProName");
+  }
+}

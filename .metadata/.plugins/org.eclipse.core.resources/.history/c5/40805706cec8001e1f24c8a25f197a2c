@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>HomePage</title>
+ 
+</head>
+<body>
+<tr>
+
+<td> <img src="./image/home.jpg" alt=" "
+		style="width: 100px; height: 250px;">
+	
+	</td>
+</tr>
+
+</body>
+</html>
